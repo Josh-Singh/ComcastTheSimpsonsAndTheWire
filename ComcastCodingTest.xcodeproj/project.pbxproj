@@ -1,0 +1,1048 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A5CF72D8FEBC47A29E94F80 /* Pods_ComcastCodingTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79D287CFD4551E643E4A4B2E /* Pods_ComcastCodingTestUITests.framework */; };
+		9606945921F7A2F2006B8DD5 /* Miscellaneous Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9606945821F7A2F2006B8DD5 /* Miscellaneous Constants.swift */; };
+		9606945A21F7A2F2006B8DD5 /* Miscellaneous Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9606945821F7A2F2006B8DD5 /* Miscellaneous Constants.swift */; };
+		9606945B21F7A2F2006B8DD5 /* Miscellaneous Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9606945821F7A2F2006B8DD5 /* Miscellaneous Constants.swift */; };
+		9606945C21F7A2F2006B8DD5 /* Miscellaneous Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9606945821F7A2F2006B8DD5 /* Miscellaneous Constants.swift */; };
+		9606946321F7C5C4006B8DD5 /* Notes.md in Resources */ = {isa = PBXBuildFile; fileRef = 9606946221F7C5C4006B8DD5 /* Notes.md */; };
+		9606946421F7C5C4006B8DD5 /* Notes.md in Resources */ = {isa = PBXBuildFile; fileRef = 9606946221F7C5C4006B8DD5 /* Notes.md */; };
+		9606946521F7C5C4006B8DD5 /* Notes.md in Resources */ = {isa = PBXBuildFile; fileRef = 9606946221F7C5C4006B8DD5 /* Notes.md */; };
+		9606946621F7C5C4006B8DD5 /* Notes.md in Resources */ = {isa = PBXBuildFile; fileRef = 9606946221F7C5C4006B8DD5 /* Notes.md */; };
+		9606946821F8FCCA006B8DD5 /* NotificationName + Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9606946721F8FCCA006B8DD5 /* NotificationName + Helper.swift */; };
+		9606946921F8FCCA006B8DD5 /* NotificationName + Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9606946721F8FCCA006B8DD5 /* NotificationName + Helper.swift */; };
+		9606946E21F904FE006B8DD5 /* ComcastTheWire-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9606946D21F904FE006B8DD5 /* ComcastTheWire-Info.plist */; };
+		961F419E21F290F5004C9805 /* CollectionViewCellConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961F419D21F290F5004C9805 /* CollectionViewCellConstants.swift */; };
+		961F419F21F290F5004C9805 /* CollectionViewCellConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961F419D21F290F5004C9805 /* CollectionViewCellConstants.swift */; };
+		961F41A021F290F5004C9805 /* CollectionViewCellConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961F419D21F290F5004C9805 /* CollectionViewCellConstants.swift */; };
+		961F41A221F2985E004C9805 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961F41A121F2985E004C9805 /* DetailViewModel.swift */; };
+		961F41A321F2985E004C9805 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961F41A121F2985E004C9805 /* DetailViewModel.swift */; };
+		961F41A421F2985E004C9805 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961F41A121F2985E004C9805 /* DetailViewModel.swift */; };
+		962DD34B21F1074100F66691 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962DD34A21F1074100F66691 /* AppDelegate.swift */; };
+		962DD35021F1074100F66691 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 962DD34E21F1074100F66691 /* Main.storyboard */; };
+		962DD35221F1074300F66691 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 962DD35121F1074300F66691 /* Assets.xcassets */; };
+		962DD35521F1074300F66691 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 962DD35321F1074300F66691 /* LaunchScreen.storyboard */; };
+		962DD36021F1074300F66691 /* ComcastCodingTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962DD35F21F1074300F66691 /* ComcastCodingTestTests.swift */; };
+		962DD36B21F1074300F66691 /* ComcastCodingTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962DD36A21F1074300F66691 /* ComcastCodingTestUITests.swift */; };
+		962DD3AF21F1091400F66691 /* SimpsonsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962DD3AE21F1091400F66691 /* SimpsonsModel.swift */; };
+		962DD3B021F1091400F66691 /* SimpsonsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962DD3AE21F1091400F66691 /* SimpsonsModel.swift */; };
+		962DD3B121F1091400F66691 /* SimpsonsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962DD3AE21F1091400F66691 /* SimpsonsModel.swift */; };
+		962DD3B321F10FB400F66691 /* NetworkHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962DD3B221F10FB400F66691 /* NetworkHandler.swift */; };
+		962DD3B421F10FB400F66691 /* NetworkHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962DD3B221F10FB400F66691 /* NetworkHandler.swift */; };
+		962DD3B521F10FB400F66691 /* NetworkHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962DD3B221F10FB400F66691 /* NetworkHandler.swift */; };
+		962DD3B721F121E500F66691 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962DD3B621F121E500F66691 /* MainViewModel.swift */; };
+		962DD3B821F121E500F66691 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962DD3B621F121E500F66691 /* MainViewModel.swift */; };
+		962DD3B921F121E500F66691 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962DD3B621F121E500F66691 /* MainViewModel.swift */; };
+		962DD3BC21F1303500F66691 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962DD3BB21F1303500F66691 /* MainViewController.swift */; };
+		962DD3C021F1304B00F66691 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962DD3BF21F1304B00F66691 /* DetailViewController.swift */; };
+		962DD3C521F1333F00F66691 /* SimpsonsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962DD3C421F1333F00F66691 /* SimpsonsCollectionViewCell.swift */; };
+		962DD3C621F1333F00F66691 /* SimpsonsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962DD3C421F1333F00F66691 /* SimpsonsCollectionViewCell.swift */; };
+		962DD3C721F1333F00F66691 /* SimpsonsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962DD3C421F1333F00F66691 /* SimpsonsCollectionViewCell.swift */; };
+		96ECD2D221F429AF00FFCFBA /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962DD3B621F121E500F66691 /* MainViewModel.swift */; };
+		96ECD2D421F429AF00FFCFBA /* CollectionViewCellConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961F419D21F290F5004C9805 /* CollectionViewCellConstants.swift */; };
+		96ECD2D521F429AF00FFCFBA /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961F41A121F2985E004C9805 /* DetailViewModel.swift */; };
+		96ECD2D621F429AF00FFCFBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962DD34A21F1074100F66691 /* AppDelegate.swift */; };
+		96ECD2D721F429AF00FFCFBA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962DD3BB21F1303500F66691 /* MainViewController.swift */; };
+		96ECD2D821F429AF00FFCFBA /* SimpsonsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962DD3C421F1333F00F66691 /* SimpsonsCollectionViewCell.swift */; };
+		96ECD2D921F429AF00FFCFBA /* SimpsonsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962DD3AE21F1091400F66691 /* SimpsonsModel.swift */; };
+		96ECD2DA21F429AF00FFCFBA /* NetworkHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962DD3B221F10FB400F66691 /* NetworkHandler.swift */; };
+		96ECD2DB21F429AF00FFCFBA /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962DD3BF21F1304B00F66691 /* DetailViewController.swift */; };
+		96ECD2DD21F429AF00FFCFBA /* Pods_ComcastCodingTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C5926CBD7EE48E71DCE7F42 /* Pods_ComcastCodingTest.framework */; };
+		96ECD2DF21F429AF00FFCFBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 962DD35321F1074300F66691 /* LaunchScreen.storyboard */; };
+		96ECD2E021F429AF00FFCFBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 962DD35121F1074300F66691 /* Assets.xcassets */; };
+		96ECD2E121F429AF00FFCFBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 962DD34E21F1074100F66691 /* Main.storyboard */; };
+		96ECD2EA21F42B1000FFCFBA /* SimpsonsAppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ECD2E921F42B1000FFCFBA /* SimpsonsAppConfig.swift */; };
+		96ECD2EB21F42B1000FFCFBA /* SimpsonsAppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ECD2E921F42B1000FFCFBA /* SimpsonsAppConfig.swift */; };
+		96ECD2EC21F42B1000FFCFBA /* SimpsonsAppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ECD2E921F42B1000FFCFBA /* SimpsonsAppConfig.swift */; };
+		96ECD2EE21F42BAF00FFCFBA /* TheWireAppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ECD2ED21F42BAF00FFCFBA /* TheWireAppConfig.swift */; };
+		96ECD2F121F51CBA00FFCFBA /* UIViewController + Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ECD2F021F51CBA00FFCFBA /* UIViewController + Helper.swift */; };
+		96ECD2F221F51CBA00FFCFBA /* UIViewController + Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ECD2F021F51CBA00FFCFBA /* UIViewController + Helper.swift */; };
+		96ECD2F321F51CBA00FFCFBA /* UIViewController + Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ECD2F021F51CBA00FFCFBA /* UIViewController + Helper.swift */; };
+		96ECD2F421F51CBA00FFCFBA /* UIViewController + Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ECD2F021F51CBA00FFCFBA /* UIViewController + Helper.swift */; };
+		BA973C934491CD067B8FC820 /* Pods_ComcastCodingTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 358CFAC7A82C004CDCB09E0D /* Pods_ComcastCodingTestTests.framework */; };
+		CA834FA21C028E96D2FBCFE9 /* Pods_ComcastCodingTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C5926CBD7EE48E71DCE7F42 /* Pods_ComcastCodingTest.framework */; };
+		D7F79625CE170B7812A61935 /* Pods_ComcastTheWire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A8E6D18A6B47D379AF0DF74 /* Pods_ComcastTheWire.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		962DD35C21F1074300F66691 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 962DD33F21F1074000F66691 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 962DD34621F1074000F66691;
+			remoteInfo = ComcastCodingTest;
+		};
+		962DD36721F1074300F66691 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 962DD33F21F1074000F66691 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 962DD34621F1074000F66691;
+			remoteInfo = ComcastCodingTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1CA1CBBD1AC3014597E60A82 /* Pods-com.sample.wireviewer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-com.sample.wireviewer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-com.sample.wireviewer/Pods-com.sample.wireviewer.debug.xcconfig"; sourceTree = "<group>"; };
+		358CFAC7A82C004CDCB09E0D /* Pods_ComcastCodingTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ComcastCodingTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A3305BDD8CF3ABF823F8D44 /* Pods-ComcastCodingTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ComcastCodingTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ComcastCodingTest/Pods-ComcastCodingTest.debug.xcconfig"; sourceTree = "<group>"; };
+		4167CFF1A90B7EDA02A830AA /* Pods-ComcastCodingTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ComcastCodingTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-ComcastCodingTest/Pods-ComcastCodingTest.release.xcconfig"; sourceTree = "<group>"; };
+		4981E8276875C32ECD49312F /* Pods-ComcastCodingTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ComcastCodingTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ComcastCodingTestTests/Pods-ComcastCodingTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		4C5926CBD7EE48E71DCE7F42 /* Pods_ComcastCodingTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ComcastCodingTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		56F6720B862B85B389BC525A /* Pods-com.sample.wireviewerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-com.sample.wireviewerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-com.sample.wireviewerUITests/Pods-com.sample.wireviewerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5FE89EA70066A5E3E6FFFCBE /* Pods-com.sample.wireviewerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-com.sample.wireviewerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-com.sample.wireviewerTests/Pods-com.sample.wireviewerTests.release.xcconfig"; sourceTree = "<group>"; };
+		685491BA0D3CAEC7EEEE013B /* Pods_com_sample_wireviewerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_com_sample_wireviewerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		688457B422276839D079E03B /* Pods-ComcastCodingTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ComcastCodingTestUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ComcastCodingTestUITests/Pods-ComcastCodingTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7137C773DED2D9122D85735A /* Pods-ComcastCodingTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ComcastCodingTestUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ComcastCodingTestUITests/Pods-ComcastCodingTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		79D287CFD4551E643E4A4B2E /* Pods_ComcastCodingTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ComcastCodingTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8359764F31501E946A8F17E2 /* Pods-com.sample.wireviewerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-com.sample.wireviewerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-com.sample.wireviewerTests/Pods-com.sample.wireviewerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		893BE8B3ACCDAAB5B7DBB83D /* Pods-ComcastTheWire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ComcastTheWire.release.xcconfig"; path = "Pods/Target Support Files/Pods-ComcastTheWire/Pods-ComcastTheWire.release.xcconfig"; sourceTree = "<group>"; };
+		9606945821F7A2F2006B8DD5 /* Miscellaneous Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Miscellaneous Constants.swift"; sourceTree = "<group>"; };
+		9606946221F7C5C4006B8DD5 /* Notes.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Notes.md; sourceTree = "<group>"; };
+		9606946721F8FCCA006B8DD5 /* NotificationName + Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NotificationName + Helper.swift"; sourceTree = "<group>"; };
+		9606946D21F904FE006B8DD5 /* ComcastTheWire-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ComcastTheWire-Info.plist"; sourceTree = "<group>"; };
+		961F419D21F290F5004C9805 /* CollectionViewCellConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellConstants.swift; sourceTree = "<group>"; };
+		961F41A121F2985E004C9805 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		962DD34721F1074000F66691 /* ComcastCodingTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ComcastCodingTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		962DD34A21F1074100F66691 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		962DD34F21F1074100F66691 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		962DD35121F1074300F66691 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		962DD35421F1074300F66691 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		962DD35621F1074300F66691 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		962DD35B21F1074300F66691 /* ComcastCodingTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ComcastCodingTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		962DD35F21F1074300F66691 /* ComcastCodingTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComcastCodingTestTests.swift; sourceTree = "<group>"; };
+		962DD36121F1074300F66691 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		962DD36621F1074300F66691 /* ComcastCodingTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ComcastCodingTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		962DD36A21F1074300F66691 /* ComcastCodingTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComcastCodingTestUITests.swift; sourceTree = "<group>"; };
+		962DD36C21F1074300F66691 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		962DD3AE21F1091400F66691 /* SimpsonsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpsonsModel.swift; sourceTree = "<group>"; };
+		962DD3B221F10FB400F66691 /* NetworkHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHandler.swift; sourceTree = "<group>"; };
+		962DD3B621F121E500F66691 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		962DD3BB21F1303500F66691 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		962DD3BF21F1304B00F66691 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		962DD3C421F1333F00F66691 /* SimpsonsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpsonsCollectionViewCell.swift; sourceTree = "<group>"; };
+		96ECD2E621F429AF00FFCFBA /* ComcastTheWire.ComcastTheWireApp */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ComcastTheWire.ComcastTheWireApp; sourceTree = BUILT_PRODUCTS_DIR; };
+		96ECD2E921F42B1000FFCFBA /* SimpsonsAppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpsonsAppConfig.swift; sourceTree = "<group>"; };
+		96ECD2ED21F42BAF00FFCFBA /* TheWireAppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheWireAppConfig.swift; sourceTree = "<group>"; };
+		96ECD2F021F51CBA00FFCFBA /* UIViewController + Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + Helper.swift"; sourceTree = "<group>"; };
+		9A8E6D18A6B47D379AF0DF74 /* Pods_ComcastTheWire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ComcastTheWire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3EC1781F2A90880F9676966 /* Pods-ComcastCodingTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ComcastCodingTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ComcastCodingTestTests/Pods-ComcastCodingTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BB9FF8178813792B300C3C81 /* Pods-ComcastTheWire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ComcastTheWire.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ComcastTheWire/Pods-ComcastTheWire.debug.xcconfig"; sourceTree = "<group>"; };
+		BF37A3DEBBE8E1AB5B07A430 /* Pods-com.sample.wireviewerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-com.sample.wireviewerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-com.sample.wireviewerUITests/Pods-com.sample.wireviewerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C1E3AF80E7D1DA99A1087CF1 /* Pods-com.sample.wireviewer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-com.sample.wireviewer.release.xcconfig"; path = "Pods/Target Support Files/Pods-com.sample.wireviewer/Pods-com.sample.wireviewer.release.xcconfig"; sourceTree = "<group>"; };
+		D6F3B360A9365652E95C3F0F /* Pods_com_sample_wireviewerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_com_sample_wireviewerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4CDCAF2922BEC60C933F69A /* Pods_com_sample_wireviewer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_com_sample_wireviewer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		962DD34421F1074000F66691 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA834FA21C028E96D2FBCFE9 /* Pods_ComcastCodingTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		962DD35821F1074300F66691 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA973C934491CD067B8FC820 /* Pods_ComcastCodingTestTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		962DD36321F1074300F66691 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A5CF72D8FEBC47A29E94F80 /* Pods_ComcastCodingTestUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96ECD2DC21F429AF00FFCFBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96ECD2DD21F429AF00FFCFBA /* Pods_ComcastCodingTest.framework in Frameworks */,
+				D7F79625CE170B7812A61935 /* Pods_ComcastTheWire.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34E6D0F6854029F41B6649DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C5926CBD7EE48E71DCE7F42 /* Pods_ComcastCodingTest.framework */,
+				358CFAC7A82C004CDCB09E0D /* Pods_ComcastCodingTestTests.framework */,
+				79D287CFD4551E643E4A4B2E /* Pods_ComcastCodingTestUITests.framework */,
+				E4CDCAF2922BEC60C933F69A /* Pods_com_sample_wireviewer.framework */,
+				685491BA0D3CAEC7EEEE013B /* Pods_com_sample_wireviewerTests.framework */,
+				D6F3B360A9365652E95C3F0F /* Pods_com_sample_wireviewerUITests.framework */,
+				9A8E6D18A6B47D379AF0DF74 /* Pods_ComcastTheWire.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		961F419C21F290D7004C9805 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				961F419D21F290F5004C9805 /* CollectionViewCellConstants.swift */,
+				9606945821F7A2F2006B8DD5 /* Miscellaneous Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		962DD33E21F1074000F66691 = {
+			isa = PBXGroup;
+			children = (
+				9606946221F7C5C4006B8DD5 /* Notes.md */,
+				962DD34921F1074000F66691 /* ComcastCodingTest */,
+				962DD35E21F1074300F66691 /* ComcastCodingTestTests */,
+				962DD36921F1074300F66691 /* ComcastCodingTestUITests */,
+				962DD34821F1074000F66691 /* Products */,
+				B661B3C5900F76F9BE943B9C /* Pods */,
+				34E6D0F6854029F41B6649DB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		962DD34821F1074000F66691 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				962DD34721F1074000F66691 /* ComcastCodingTest.app */,
+				962DD35B21F1074300F66691 /* ComcastCodingTestTests.xctest */,
+				962DD36621F1074300F66691 /* ComcastCodingTestUITests.xctest */,
+				96ECD2E621F429AF00FFCFBA /* ComcastTheWire.ComcastTheWireApp */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		962DD34921F1074000F66691 /* ComcastCodingTest */ = {
+			isa = PBXGroup;
+			children = (
+				96ECD2EF21F51C8B00FFCFBA /* Extensions and other support files */,
+				96ECD2E821F42AE800FFCFBA /* Configuration Files */,
+				961F419C21F290D7004C9805 /* Constants */,
+				962DD3C321F1330D00F66691 /* Collection View Cells */,
+				962DD3BA21F1300A00F66691 /* View Controllers */,
+				962DD3AD21F1087200F66691 /* View Models */,
+				962DD3AC21F1086800F66691 /* Models */,
+				962DD34A21F1074100F66691 /* AppDelegate.swift */,
+				962DD34E21F1074100F66691 /* Main.storyboard */,
+				962DD35121F1074300F66691 /* Assets.xcassets */,
+				962DD35321F1074300F66691 /* LaunchScreen.storyboard */,
+				962DD35621F1074300F66691 /* Info.plist */,
+				9606946D21F904FE006B8DD5 /* ComcastTheWire-Info.plist */,
+				962DD3B221F10FB400F66691 /* NetworkHandler.swift */,
+			);
+			path = ComcastCodingTest;
+			sourceTree = "<group>";
+		};
+		962DD35E21F1074300F66691 /* ComcastCodingTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				962DD35F21F1074300F66691 /* ComcastCodingTestTests.swift */,
+				962DD36121F1074300F66691 /* Info.plist */,
+			);
+			path = ComcastCodingTestTests;
+			sourceTree = "<group>";
+		};
+		962DD36921F1074300F66691 /* ComcastCodingTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				962DD36A21F1074300F66691 /* ComcastCodingTestUITests.swift */,
+				962DD36C21F1074300F66691 /* Info.plist */,
+			);
+			path = ComcastCodingTestUITests;
+			sourceTree = "<group>";
+		};
+		962DD3AC21F1086800F66691 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				962DD3AE21F1091400F66691 /* SimpsonsModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		962DD3AD21F1087200F66691 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				962DD3B621F121E500F66691 /* MainViewModel.swift */,
+				961F41A121F2985E004C9805 /* DetailViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		962DD3BA21F1300A00F66691 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				962DD3BB21F1303500F66691 /* MainViewController.swift */,
+				962DD3BF21F1304B00F66691 /* DetailViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		962DD3C321F1330D00F66691 /* Collection View Cells */ = {
+			isa = PBXGroup;
+			children = (
+				962DD3C421F1333F00F66691 /* SimpsonsCollectionViewCell.swift */,
+			);
+			path = "Collection View Cells";
+			sourceTree = "<group>";
+		};
+		96ECD2E821F42AE800FFCFBA /* Configuration Files */ = {
+			isa = PBXGroup;
+			children = (
+				96ECD2E921F42B1000FFCFBA /* SimpsonsAppConfig.swift */,
+				96ECD2ED21F42BAF00FFCFBA /* TheWireAppConfig.swift */,
+			);
+			path = "Configuration Files";
+			sourceTree = "<group>";
+		};
+		96ECD2EF21F51C8B00FFCFBA /* Extensions and other support files */ = {
+			isa = PBXGroup;
+			children = (
+				96ECD2F021F51CBA00FFCFBA /* UIViewController + Helper.swift */,
+				9606946721F8FCCA006B8DD5 /* NotificationName + Helper.swift */,
+			);
+			path = "Extensions and other support files";
+			sourceTree = "<group>";
+		};
+		B661B3C5900F76F9BE943B9C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3A3305BDD8CF3ABF823F8D44 /* Pods-ComcastCodingTest.debug.xcconfig */,
+				4167CFF1A90B7EDA02A830AA /* Pods-ComcastCodingTest.release.xcconfig */,
+				B3EC1781F2A90880F9676966 /* Pods-ComcastCodingTestTests.debug.xcconfig */,
+				4981E8276875C32ECD49312F /* Pods-ComcastCodingTestTests.release.xcconfig */,
+				688457B422276839D079E03B /* Pods-ComcastCodingTestUITests.debug.xcconfig */,
+				7137C773DED2D9122D85735A /* Pods-ComcastCodingTestUITests.release.xcconfig */,
+				1CA1CBBD1AC3014597E60A82 /* Pods-com.sample.wireviewer.debug.xcconfig */,
+				C1E3AF80E7D1DA99A1087CF1 /* Pods-com.sample.wireviewer.release.xcconfig */,
+				8359764F31501E946A8F17E2 /* Pods-com.sample.wireviewerTests.debug.xcconfig */,
+				5FE89EA70066A5E3E6FFFCBE /* Pods-com.sample.wireviewerTests.release.xcconfig */,
+				BF37A3DEBBE8E1AB5B07A430 /* Pods-com.sample.wireviewerUITests.debug.xcconfig */,
+				56F6720B862B85B389BC525A /* Pods-com.sample.wireviewerUITests.release.xcconfig */,
+				BB9FF8178813792B300C3C81 /* Pods-ComcastTheWire.debug.xcconfig */,
+				893BE8B3ACCDAAB5B7DBB83D /* Pods-ComcastTheWire.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		962DD34621F1074000F66691 /* ComcastCodingTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 962DD36F21F1074300F66691 /* Build configuration list for PBXNativeTarget "ComcastCodingTest" */;
+			buildPhases = (
+				EF9BE5118BD52E5BAE0AF54C /* [CP] Check Pods Manifest.lock */,
+				962DD34321F1074000F66691 /* Sources */,
+				962DD34421F1074000F66691 /* Frameworks */,
+				962DD34521F1074000F66691 /* Resources */,
+				A504D5EF5DECF3CEC0109768 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ComcastCodingTest;
+			productName = ComcastCodingTest;
+			productReference = 962DD34721F1074000F66691 /* ComcastCodingTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		962DD35A21F1074300F66691 /* ComcastCodingTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 962DD37221F1074300F66691 /* Build configuration list for PBXNativeTarget "ComcastCodingTestTests" */;
+			buildPhases = (
+				983465B6D87FF96BFD1F071F /* [CP] Check Pods Manifest.lock */,
+				962DD35721F1074300F66691 /* Sources */,
+				962DD35821F1074300F66691 /* Frameworks */,
+				962DD35921F1074300F66691 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				962DD35D21F1074300F66691 /* PBXTargetDependency */,
+			);
+			name = ComcastCodingTestTests;
+			productName = ComcastCodingTestTests;
+			productReference = 962DD35B21F1074300F66691 /* ComcastCodingTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		962DD36521F1074300F66691 /* ComcastCodingTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 962DD37521F1074300F66691 /* Build configuration list for PBXNativeTarget "ComcastCodingTestUITests" */;
+			buildPhases = (
+				4752C42BF4694A4DDFAAF13B /* [CP] Check Pods Manifest.lock */,
+				962DD36221F1074300F66691 /* Sources */,
+				962DD36321F1074300F66691 /* Frameworks */,
+				962DD36421F1074300F66691 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				962DD36821F1074300F66691 /* PBXTargetDependency */,
+			);
+			name = ComcastCodingTestUITests;
+			productName = ComcastCodingTestUITests;
+			productReference = 962DD36621F1074300F66691 /* ComcastCodingTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		96ECD2CF21F429AF00FFCFBA /* ComcastTheWire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96ECD2E321F429AF00FFCFBA /* Build configuration list for PBXNativeTarget "ComcastTheWire" */;
+			buildPhases = (
+				96ECD2D021F429AF00FFCFBA /* [CP] Check Pods Manifest.lock */,
+				96ECD2D121F429AF00FFCFBA /* Sources */,
+				96ECD2DC21F429AF00FFCFBA /* Frameworks */,
+				96ECD2DE21F429AF00FFCFBA /* Resources */,
+				96ECD2E221F429AF00FFCFBA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ComcastTheWire;
+			productName = ComcastCodingTest;
+			productReference = 96ECD2E621F429AF00FFCFBA /* ComcastTheWire.ComcastTheWireApp */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		962DD33F21F1074000F66691 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Yash Singh";
+				TargetAttributes = {
+					962DD34621F1074000F66691 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					962DD35A21F1074300F66691 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 962DD34621F1074000F66691;
+					};
+					962DD36521F1074300F66691 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 962DD34621F1074000F66691;
+					};
+				};
+			};
+			buildConfigurationList = 962DD34221F1074000F66691 /* Build configuration list for PBXProject "ComcastCodingTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 962DD33E21F1074000F66691;
+			productRefGroup = 962DD34821F1074000F66691 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				962DD34621F1074000F66691 /* ComcastCodingTest */,
+				96ECD2CF21F429AF00FFCFBA /* ComcastTheWire */,
+				962DD35A21F1074300F66691 /* ComcastCodingTestTests */,
+				962DD36521F1074300F66691 /* ComcastCodingTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		962DD34521F1074000F66691 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9606946321F7C5C4006B8DD5 /* Notes.md in Resources */,
+				962DD35521F1074300F66691 /* LaunchScreen.storyboard in Resources */,
+				962DD35221F1074300F66691 /* Assets.xcassets in Resources */,
+				962DD35021F1074100F66691 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		962DD35921F1074300F66691 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9606946421F7C5C4006B8DD5 /* Notes.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		962DD36421F1074300F66691 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9606946521F7C5C4006B8DD5 /* Notes.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96ECD2DE21F429AF00FFCFBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9606946621F7C5C4006B8DD5 /* Notes.md in Resources */,
+				96ECD2DF21F429AF00FFCFBA /* LaunchScreen.storyboard in Resources */,
+				9606946E21F904FE006B8DD5 /* ComcastTheWire-Info.plist in Resources */,
+				96ECD2E021F429AF00FFCFBA /* Assets.xcassets in Resources */,
+				96ECD2E121F429AF00FFCFBA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4752C42BF4694A4DDFAAF13B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ComcastCodingTestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96ECD2D021F429AF00FFCFBA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ComcastTheWire-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96ECD2E221F429AF00FFCFBA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ComcastTheWire/Pods-ComcastTheWire-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ComcastTheWire/Pods-ComcastTheWire-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		983465B6D87FF96BFD1F071F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ComcastCodingTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A504D5EF5DECF3CEC0109768 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ComcastCodingTest/Pods-ComcastCodingTest-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ComcastCodingTest/Pods-ComcastCodingTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF9BE5118BD52E5BAE0AF54C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ComcastCodingTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		962DD34321F1074000F66691 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				962DD3B721F121E500F66691 /* MainViewModel.swift in Sources */,
+				9606945921F7A2F2006B8DD5 /* Miscellaneous Constants.swift in Sources */,
+				961F419E21F290F5004C9805 /* CollectionViewCellConstants.swift in Sources */,
+				961F41A221F2985E004C9805 /* DetailViewModel.swift in Sources */,
+				962DD34B21F1074100F66691 /* AppDelegate.swift in Sources */,
+				962DD3BC21F1303500F66691 /* MainViewController.swift in Sources */,
+				962DD3C521F1333F00F66691 /* SimpsonsCollectionViewCell.swift in Sources */,
+				962DD3AF21F1091400F66691 /* SimpsonsModel.swift in Sources */,
+				962DD3B321F10FB400F66691 /* NetworkHandler.swift in Sources */,
+				96ECD2EA21F42B1000FFCFBA /* SimpsonsAppConfig.swift in Sources */,
+				96ECD2F121F51CBA00FFCFBA /* UIViewController + Helper.swift in Sources */,
+				962DD3C021F1304B00F66691 /* DetailViewController.swift in Sources */,
+				9606946821F8FCCA006B8DD5 /* NotificationName + Helper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		962DD35721F1074300F66691 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				962DD36021F1074300F66691 /* ComcastCodingTestTests.swift in Sources */,
+				9606945A21F7A2F2006B8DD5 /* Miscellaneous Constants.swift in Sources */,
+				962DD3B021F1091400F66691 /* SimpsonsModel.swift in Sources */,
+				962DD3B821F121E500F66691 /* MainViewModel.swift in Sources */,
+				961F419F21F290F5004C9805 /* CollectionViewCellConstants.swift in Sources */,
+				961F41A321F2985E004C9805 /* DetailViewModel.swift in Sources */,
+				96ECD2EB21F42B1000FFCFBA /* SimpsonsAppConfig.swift in Sources */,
+				96ECD2F221F51CBA00FFCFBA /* UIViewController + Helper.swift in Sources */,
+				962DD3C621F1333F00F66691 /* SimpsonsCollectionViewCell.swift in Sources */,
+				962DD3B421F10FB400F66691 /* NetworkHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		962DD36221F1074300F66691 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				962DD36B21F1074300F66691 /* ComcastCodingTestUITests.swift in Sources */,
+				9606945B21F7A2F2006B8DD5 /* Miscellaneous Constants.swift in Sources */,
+				962DD3B121F1091400F66691 /* SimpsonsModel.swift in Sources */,
+				962DD3B921F121E500F66691 /* MainViewModel.swift in Sources */,
+				961F41A021F290F5004C9805 /* CollectionViewCellConstants.swift in Sources */,
+				961F41A421F2985E004C9805 /* DetailViewModel.swift in Sources */,
+				96ECD2EC21F42B1000FFCFBA /* SimpsonsAppConfig.swift in Sources */,
+				96ECD2F321F51CBA00FFCFBA /* UIViewController + Helper.swift in Sources */,
+				962DD3C721F1333F00F66691 /* SimpsonsCollectionViewCell.swift in Sources */,
+				962DD3B521F10FB400F66691 /* NetworkHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96ECD2D121F429AF00FFCFBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96ECD2D221F429AF00FFCFBA /* MainViewModel.swift in Sources */,
+				96ECD2EE21F42BAF00FFCFBA /* TheWireAppConfig.swift in Sources */,
+				9606945C21F7A2F2006B8DD5 /* Miscellaneous Constants.swift in Sources */,
+				96ECD2D421F429AF00FFCFBA /* CollectionViewCellConstants.swift in Sources */,
+				96ECD2D521F429AF00FFCFBA /* DetailViewModel.swift in Sources */,
+				96ECD2D621F429AF00FFCFBA /* AppDelegate.swift in Sources */,
+				96ECD2D721F429AF00FFCFBA /* MainViewController.swift in Sources */,
+				96ECD2D821F429AF00FFCFBA /* SimpsonsCollectionViewCell.swift in Sources */,
+				96ECD2D921F429AF00FFCFBA /* SimpsonsModel.swift in Sources */,
+				96ECD2DA21F429AF00FFCFBA /* NetworkHandler.swift in Sources */,
+				96ECD2F421F51CBA00FFCFBA /* UIViewController + Helper.swift in Sources */,
+				96ECD2DB21F429AF00FFCFBA /* DetailViewController.swift in Sources */,
+				9606946921F8FCCA006B8DD5 /* NotificationName + Helper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		962DD35D21F1074300F66691 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 962DD34621F1074000F66691 /* ComcastCodingTest */;
+			targetProxy = 962DD35C21F1074300F66691 /* PBXContainerItemProxy */;
+		};
+		962DD36821F1074300F66691 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 962DD34621F1074000F66691 /* ComcastCodingTest */;
+			targetProxy = 962DD36721F1074300F66691 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		962DD34E21F1074100F66691 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				962DD34F21F1074100F66691 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		962DD35321F1074300F66691 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				962DD35421F1074300F66691 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		962DD36D21F1074300F66691 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		962DD36E21F1074300F66691 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		962DD37021F1074300F66691 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A3305BDD8CF3ABF823F8D44 /* Pods-ComcastCodingTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ComcastCodingTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.simpsonsviewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		962DD37121F1074300F66691 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4167CFF1A90B7EDA02A830AA /* Pods-ComcastCodingTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ComcastCodingTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.simpsonsviewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		962DD37321F1074300F66691 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3EC1781F2A90880F9676966 /* Pods-ComcastCodingTestTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ComcastCodingTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Yash-Singh.ComcastCodingTestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ComcastCodingTest.app/ComcastCodingTest";
+			};
+			name = Debug;
+		};
+		962DD37421F1074300F66691 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4981E8276875C32ECD49312F /* Pods-ComcastCodingTestTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ComcastCodingTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Yash-Singh.ComcastCodingTestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ComcastCodingTest.app/ComcastCodingTest";
+			};
+			name = Release;
+		};
+		962DD37621F1074300F66691 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 688457B422276839D079E03B /* Pods-ComcastCodingTestUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ComcastCodingTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Yash-Singh.ComcastCodingTestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ComcastCodingTest;
+			};
+			name = Debug;
+		};
+		962DD37721F1074300F66691 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7137C773DED2D9122D85735A /* Pods-ComcastCodingTestUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ComcastCodingTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Yash-Singh.ComcastCodingTestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ComcastCodingTest;
+			};
+			name = Release;
+		};
+		96ECD2E421F429AF00FFCFBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB9FF8178813792B300C3C81 /* Pods-ComcastTheWire.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/ComcastCodingTest/ComcastTheWire-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.wireviewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = ComcastTheWireApp;
+			};
+			name = Debug;
+		};
+		96ECD2E521F429AF00FFCFBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 893BE8B3ACCDAAB5B7DBB83D /* Pods-ComcastTheWire.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/ComcastCodingTest/ComcastTheWire-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.wireviewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = ComcastTheWireApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		962DD34221F1074000F66691 /* Build configuration list for PBXProject "ComcastCodingTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				962DD36D21F1074300F66691 /* Debug */,
+				962DD36E21F1074300F66691 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		962DD36F21F1074300F66691 /* Build configuration list for PBXNativeTarget "ComcastCodingTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				962DD37021F1074300F66691 /* Debug */,
+				962DD37121F1074300F66691 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		962DD37221F1074300F66691 /* Build configuration list for PBXNativeTarget "ComcastCodingTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				962DD37321F1074300F66691 /* Debug */,
+				962DD37421F1074300F66691 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		962DD37521F1074300F66691 /* Build configuration list for PBXNativeTarget "ComcastCodingTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				962DD37621F1074300F66691 /* Debug */,
+				962DD37721F1074300F66691 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96ECD2E321F429AF00FFCFBA /* Build configuration list for PBXNativeTarget "ComcastTheWire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96ECD2E421F429AF00FFCFBA /* Debug */,
+				96ECD2E521F429AF00FFCFBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 962DD33F21F1074000F66691 /* Project object */;
+}
